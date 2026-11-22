@@ -1,0 +1,157 @@
+const SOURCES={
+book:['English car ebook (older edition; stable driving principles)','https://mydiims.com/ebook/autoeng/#/reader'],
+ldl:['JPJ learner licence guidance','https://www.jpj.gov.my/pusat-media-3/informasi-perkhidmatan-jpj/pemandu/permohonan-lesen-belajar-memandu-ldl/'],
+pdl:['JPJ probationary licence guidance','https://www.jpj.gov.my/pusat-media-3/informasi-perkhidmatan-jpj/pemandu/permohonan-lesen-memandu-percubaan-pdl/'],
+cdl:['JPJ competent licence application','https://www.jpj.gov.my/permohonan-lesen-memandu-kompeten-cdl/'],
+kejara:['JPJ KEJARA FAQ','https://www.jpj.gov.my/accordions/soalan-lazim-lesen-memandu-3/'],
+law:['Road Transport (Amendment) Act 2020','https://lom.agc.gov.my/ilims/upload/portal/akta/outputaktap/1684461_BI/Act%20A1618.pdf'],
+newbook:['JPJ combined textbook, 2025','https://www.jpj.gov.my/wp-content/uploads/2025/10/Buku-KPP-Gabungan-Motokar-Dan-Motosikal.pdf']};
+const BANK=[];
+function add(topic,source,rows){for(const r of rows){const [q,correct,b,c,why,sign]=r;BANK.push({id:BANK.length+1,topic,source,q,correct,options:[correct,b,c],why,sign});}}
+add('Licences','ldl',[
+['What does LDL mean?','Learner’s Driving Licence','Licensed Driver Level','Local Driving Licence','LDL is the learner stage, before the practical test.'],
+['An LDL is normally issued or renewed for which periods?','3 or 6 months','1 or 2 years','12 months only','Separate each renewal period from the total time allowed.'],
+['What is the maximum aggregate LDL period from first issue?','2 years','6 months','5 years','The 3- or 6-month renewals must fit within the two-year total.'],
+['You renewed an LDL for six months. Does this restart its two-year maximum?','No, the limit runs from first issue','Yes, each renewal restarts it','Only when changing schools','Renewing does not reset the original start date.'],
+['For a car learner, who should supervise practice on the road?','An authorised driving instructor or JPJ examiner','Any experienced relative','Any driver with a P licence','An LDL is permission for supervised learning, not independent driving.'],
+['Which comes immediately after passing the theory stage in the normal licensing route?','Apply for LDL and undertake practical training','Receive a full CDL immediately','Skip practical tests and obtain PDL','Theory success is one step in the licensing process.']]);
+add('Licences','pdl',[
+['What does PDL mean?','Probationary Driving Licence','Permanent Driving Licence','Public Driving Licence','P means probationary, not permanent.'],
+['How long is the probationary period?','2 years','1 year','3 years','PDL lasts two years.'],
+['Which test stage normally precedes issue of a PDL?','Passing the required practical tests','Theory only','A renewal interview','The probationary stage follows practical competence testing.'],
+['Does an expired PDL give a one-year permission to continue driving?','No, expiry means it is not valid for driving','Yes, until conversion','Yes, but only in daytime','A conversion application window is not an extension of permission to drive.']]);
+add('Licences','cdl',[
+['How early can you normally apply to convert PDL to CDL?','7 days before probation expires','6 months before it expires','Immediately after getting PDL','Remember 7 days before, not 7 months.'],
+['What is the normal PDL-to-CDL application window after PDL expiry?','Within 1 year','Within 3 years','Within 7 days only','Do not confuse this window with the two-year probation.'],
+['Which sequence is correct?','LDL → PDL → CDL','PDL → LDL → CDL','CDL → PDL → LDL','Learner, probationary, competent.']]);
+add('Licences','newbook',[
+['Minimum age for a D/DA car licence?','17 years','16 years','18 years','Car 17; motorcycle 16.'],
+['Minimum age for a motorcycle licence?','16 years','17 years','18 years','Motorcycle eligibility starts a year earlier than car eligibility.'],
+['The syllabus specifies clear vision ahead for how far?','23 metres','12 metres','50 metres','23 metres is the vision figure, not a following-distance rule.'],
+['A person offers a guaranteed test pass for an unofficial payment. What should you do?','Refuse and use proper reporting channels','Pay only after passing','Ask for a discount','Integrity and refusal of bribery are explicit parts of the combined syllabus.']]);
+add('KEJARA','kejara',[
+['A PDL holder reaches 20 demerit points. What action applies?','Licence cancellation','Only a verbal warning','Automatic promotion to CDL','Current JPJ guidance says PDL is cancelled at 20 points or more. Some practice sites still say 10.'],
+['When are demerit points imposed for a scheduled offence?','On payment of the compound or court punishment','As soon as a warning letter is drafted','Only when renewing the licence','Do not confuse receiving a summons with the point-imposition trigger.'],
+['Can you drive while your licence is suspended?','No','Yes, for commuting','Yes, using another vehicle','Suspension removes permission to drive.'],
+['Can changing vehicle or licence class bypass a suspension?','No','Yes, car to motorcycle','Yes, if insurance is valid','The restriction is on the driver.'],
+['CDL cancellation can follow how many suspensions in what period?','3 suspensions within 5 years','2 suspensions within 10 years','5 suspensions within 3 years','Remember three in five.'],
+['After cancellation under KEJARA, when can a person reapply through the new-applicant process?','After 12 months','After 7 days','The next morning','Cancellation is different from a short suspension.'],
+['What demerit reduction does JPJ describe for qualifying drivers?','50%','100%','10%','Eligibility conditions apply; this is not an automatic appeal discount.'],
+['One qualifying route for the demerit reduction is no scheduled offence for how long after the last offence?','12 months','1 month','5 years','The published condition uses twelve months.'],
+['Does paying a compound mean scheduled-offence points can simply be ignored?','No','Yes, payment cancels all consequences','Only first-time drivers can ignore them','Payment is a trigger for demerit points.']]);
+add('Numbers','law',[
+['The general prescribed breath alcohol figure is how much per 100 ml?','22 microgrammes','50 milligrammes','107 milligrammes','Breath uses microgrammes: 22. Do not swap the units with blood or urine.'],
+['The general prescribed blood alcohol figure is how much per 100 ml?','50 milligrammes','80 milligrammes','22 milligrammes','Blood: 50 mg per 100 ml. The old 80 figure is obsolete.'],
+['The general prescribed urine alcohol figure is how much per 100 ml?','67 milligrammes','107 milligrammes','22 microgrammes','Urine: 67 mg. Several old question banks still offer 107.']]);
+add('Road signs','book',[
+['What does this sign require?','Stop completely, then proceed only when safe','Slow slightly and continue','Stop only if another car is present','BERHENTI means STOP. A quiet road does not cancel the requirement.','stop'],
+['What does this sign mean?','Give way','Stop in every case','Road closed','BERI LALUAN means give way. Stop if necessary to yield.','giveway'],
+['What does this sign mean?','No entry','One-way traffic ahead','Parking prohibited','The white horizontal bar on a red disc means no entry.','noentry'],
+['What is this sign showing?','Maximum speed limit','Minimum speed','Recommended speed only','A red-bordered speed sign imposes a maximum, not a target.','speed'],
+['A blue circular sign with a white direction arrow is generally what type?','Mandatory instruction','General hazard warning','Temporary roadworks warning','Blue circles generally require the indicated movement.'],
+['A yellow diamond with a black symbol generally gives what information?','A hazard warning','A parking permission','A motorway exit number','Learn shape and colour before reading the symbol.'],
+['An orange temporary warning sign near works means what?','A temporary hazard or traffic arrangement','Permanent right of way','Unrestricted speed','Follow the temporary traffic arrangement and slow down.'],
+['The sign says IKUT KIRI. What does it mean?','Keep left','Turn right','No entry','Ikut kiri means keep left.'],
+['What does DILARANG MEMOTONG mean?','No overtaking','No parking','No U-turn','Memotong means overtaking in this context.'],
+['What does HAD LAJU mean?','Speed limit','Road width','Vehicle weight','Laju refers to speed.'],
+['A hospital information sign tells you what?','A hospital is nearby or in the indicated direction','You have priority at the next junction','A mandatory stop is ahead','An information sign is different from a prohibition.'],
+['A height-limit sign refers to what?','Maximum permitted vehicle height','Minimum driver eye height','Road length','Include the load when considering whether the vehicle fits.'],
+['A schoolchildren warning sign calls for what action?','Slow down and watch for children','Use the horn and maintain speed','Overtake before the school gate','Expect a child to enter the road unexpectedly.'],
+['A slippery-road sign calls for what action?','Reduce speed and avoid harsh inputs','Brake hard on the sign','Test grip by accelerating','Smooth steering, acceleration and braking reduce loss of grip.'],
+['At a level crossing, barriers start closing. What should you do?','Stop before the crossing','Drive around them if the train is distant','Stop on the railway tracks','Never enter while barriers or signals prohibit it.'],
+['You see a road-narrows warning. What should you anticipate?','Less space and possible conflict with traffic','An extra overtaking lane','An increase in the speed limit','Adjust speed and position before the restriction.'],
+['A no-U-turn sign permits which action?','Continue by a lawful alternative route','Make a U-turn only when no one is looking','Reverse into the opposing lane','Find a permitted place to change direction.'],
+['A sharp-bend warning means you should reduce speed when?','Before entering the bend','Only halfway through the bend','Only after the rear wheels slide','Set speed before the bend; avoid harsh braking while cornering.']]);
+add('Rules and markings','book',[
+['A traffic officer tells you to stop while the light is green. What should you do?','Stop as directed','Follow the green light','Continue if the car ahead does','The officer’s direction controls the movement.'],
+['Amber appears while you can stop safely before the line. What should you do?','Stop before the line','Accelerate to beat red','Stop in the junction','Amber is not an invitation to speed up.'],
+['The light is green but traffic blocks your exit. What should you do?','Wait before entering the junction','Enter and block crossing traffic','Use the horn until traffic moves','A green light does not make a blocked junction safe to enter.'],
+['At a STOP sign, where should you stop when there is a stop line?','Before the stop line','On the pedestrian crossing','Only after the junction','Stop where required, then make a safe observation.'],
+['At a give-way junction with a clear view and no conflicting traffic, must you always stop completely?','No, proceed cautiously if safe after yielding','Yes, it is identical to STOP','No observation is needed','Yielding and stopping are different instructions.'],
+['Before changing lanes, what is the safe routine?','Mirrors, signal, blind-spot check, move when safe','Signal and move immediately','Blind-spot check after moving','CITO: Cermin, Isyarat, Titik buta, Olah gerak.'],
+['What is a blind spot?','An area not visible directly or in the mirrors','A place with no street lighting','A dirty part of the windscreen','A shoulder check helps detect vehicles the mirrors miss.'],
+['Does using an indicator give you automatic right of way?','No','Yes, after three flashes','Yes, in slow traffic','A signal communicates intention; it does not create a safe gap.'],
+['When should you normally signal for a turn?','Early enough to inform others without misleading them','Only after beginning the turn','Only when traffic is behind','Give other users useful advance information.'],
+['What should you do if you miss an expressway exit?','Continue to the next suitable exit','Reverse along the shoulder','Stop and turn across the lanes','Never reverse to recover a missed exit.'],
+['What is the expressway emergency lane for?','Emergencies and authorised use','Overtaking a queue','Taking calls without leaving traffic','Congestion does not make it an extra running lane.'],
+['When entering an expressway, what is the safe approach?','Use the acceleration lane and merge into a safe gap','Expect all main-road traffic to stop','Stop at the end regardless of traffic','Match speed appropriately and check the gap.'],
+['What should you do while another vehicle overtakes you?','Keep a safe course and do not accelerate','Accelerate to prevent it returning','Move toward the centre line','Help the manoeuvre finish safely.'],
+['Why is overtaking near a hill crest unsafe?','You cannot see enough of the road ahead','The engine always stalls','Overtaking is safer at the crest','Hidden oncoming traffic can appear with no escape space.'],
+['Why avoid overtaking near a pedestrian crossing?','A vehicle may hide a pedestrian','Pedestrians always wait for you','The crossing creates an extra lane','Never assume the stopped vehicle has no reason to stop.'],
+['A broken centre line means you may overtake when?','Only if it is safe and otherwise permitted','At any speed without checking','Whenever the car ahead is slow','A broken line is not a guarantee of safety.'],
+['A solid line is on your side of a solid/broken centre marking. What should you do?','Do not cross it to overtake','Use the broken line on the other side as permission','Straddle both lines','The marking nearest your side governs you.'],
+['Double continuous centre lines mean what for overtaking?','Do not cross them to overtake','Overtake if you flash headlights','Use either lane freely','A clear-looking road does not cancel the prohibition.'],
+['The traffic light changes red as you approach. What should you do?','Stop before the line','Stop on the crossing','Continue if nobody is coming','Keep crossings and junction space clear.'],
+['At an ordinary roundabout entry, whom should you give way to?','Traffic already circulating from your right','Only traffic behind you','Nobody if you indicate','Observe the entry signs and circulating traffic.'],
+['An ambulance approaches using emergency warnings. What should you do?','Make room safely without creating another hazard','Brake abruptly in its path','Race ahead to clear the route','Move predictably and safely.'],
+['Which is NOT a safe place to overtake?','A blind bend','A clear permitted straight with sufficient space','A lawful passing lane with a safe gap','Read NOT before choosing the familiar-looking answer.']]);
+add('Distance and hazards','book',[
+['In good conditions, which syllabus rule is the normal following baseline?','2 seconds','4 seconds in every circumstance','12 seconds','Two seconds is the normal minimum baseline, not a guarantee in every condition.'],
+['In rain or on a slippery road, which syllabus following rule gives more space?','4 seconds','1 second','Maintain the same gap as dry weather','Use a greater gap and increase it further if conditions require.'],
+['What does the 12-second rule principally train?','Scanning and planning well ahead','A universal stopping time','A required delay at every junction','Do not confuse looking ahead with the normal following gap.'],
+['A car is tailgating you. What helps reduce the risk?','Increase your gap to the vehicle ahead','Brake sharply to teach a lesson','Follow the car ahead more closely','Extra space ahead lets you slow more gradually.'],
+['The car ahead is itself tailgating. Which syllabus following rule is appropriate?','4 seconds','1 second','Stay as close as that car does','You may need extra reaction space if the vehicles ahead stop suddenly.'],
+['When towing, what should happen to your following gap?','Increase it','Reduce it','Keep it fixed at one car length','Extra load and the combination require more stopping space.'],
+['How do you measure a time following gap?','Count after the vehicle ahead passes a fixed landmark','Count from when you pass it','Measure the bonnet length','Reach the landmark after the chosen interval has elapsed.'],
+['As speed increases, what generally happens to stopping distance?','It increases','It remains unchanged','It always halves','Allow for both reaction travel and braking distance.'],
+['What makes total stopping distance?','Thinking/reaction distance plus braking distance','Only the tyre skid marks','Only the space while pressing the pedal','You travel before braking begins as well as during braking.'],
+['A ball rolls out from between parked cars. What should you anticipate?','A child may follow it','There is no hazard until a child appears','The ball proves the road is clear','Respond to the developing hazard before the person becomes visible.'],
+['A bus has stopped and hides the pavement ahead. What should you do?','Slow and prepare for a pedestrian emerging','Overtake quickly without reducing speed','Assume the bus driver will stop pedestrians','The bus blocks your view.'],
+['A motorcyclist is riding near you in a blind spot. What should you do before moving across?','Check carefully and wait for a safe gap','Rely only on the rear-view mirror','Indicate and move at once','Smaller road users are easy to miss.'],
+['What is the safest response to increasing drowsiness?','Stop in a safe place and rest','Open the window and continue indefinitely','Drive faster to finish sooner','Do not rely on tricks to make an unfit driver safe.'],
+['A medicine label warns of drowsiness. What is the sensible action?','Check advice and avoid driving if affected','Ignore it for a short journey','Compensate by using high beam','Fitness to drive matters before starting.'],
+['You are angry after another driver cuts in. What should you do?','Create space and regain calm','Follow closely to confront them','Sound the horn continuously','Avoid turning another driver’s mistake into your own collision.']]);
+add('Emergencies and vehicle','book',[
+['A tyre bursts at speed. What is the first priority?','Hold the steering firmly and stabilise the vehicle','Brake as hard as possible immediately','Turn sharply toward the shoulder','Maintain control, reduce speed gradually and stop safely.'],
+['What should you avoid during a tyre blowout?','Harsh braking and sudden steering','Holding a steady steering wheel','Gradually reducing speed','Abrupt inputs can cause loss of control.'],
+['Your vehicle begins aquaplaning. What should you do?','Ease off the accelerator and avoid abrupt inputs','Accelerate to regain grip','Brake hard while turning','The tyres have reduced contact with the road.'],
+['On a long descent, what helps control speed?','An appropriate lower gear and controlled braking','Neutral gear','Switching the engine off','Use engine braking and avoid coasting.'],
+['Why is coasting downhill in neutral unsafe?','You lose engine braking and reduce control','It improves braking','It guarantees lower fuel use safely','Keep an appropriate gear engaged.'],
+['In heavy rain while moving, which lights should you normally use?','Dipped headlights','Hazard lights instead of indicators','High beam at all times','Hazards are not the normal moving-in-rain signal.'],
+['When approaching another vehicle at night, what should you do with high beam?','Dip it to avoid dazzling','Keep it on to assert priority','Flash it continuously','Avoid dazzling oncoming drivers and vehicles ahead.'],
+['You must stop after a breakdown. What is a safe priority?','Get clear of live traffic and call for help','Stand behind the car in the traffic lane','Ask passengers to push from a live lane','Protect people from passing traffic.'],
+['The engine is overheating. What should you NOT do?','Open a hot radiator cap','Stop safely','Let the engine cool','Hot pressurised coolant can cause severe burns.'],
+['What is the main function of ABS?','Help prevent wheel lock while retaining steering control','Guarantee a shorter stopping distance on every surface','Replace the need for good tyres','ABS means Anti-lock Braking System.'],
+['With functioning ABS in an emergency stop, what is normally required?','Firm sustained brake pressure and steering as needed','Rapidly pump the pedal','Release the brake whenever it pulses','Pedal pulsing may be normal ABS operation.'],
+['Does an airbag remove the need for a seatbelt?','No, both work together','Yes, for the driver','Yes, on short journeys','An airbag supplements the restraint belt.'],
+['Why adjust the head restraint correctly?','To reduce head and neck injury','To improve engine braking','To replace the seatbelt','Position it appropriately behind the head.'],
+['What does a rear-door child lock do?','Prevents that door being opened from inside','Restrains a child in a crash','Replaces a child seat','A door lock and a crash restraint have different functions.'],
+['How should you choose a child restraint?','An approved restraint appropriate to the child and installed correctly','Any adult seatbelt regardless of fit','A cushion on the front seat','Follow the restraint and vehicle instructions.'],
+['What should you inspect on tyres?','Pressure, tread and damage','Only their colour','Only whether they look shiny','Use the vehicle specification and check their condition.'],
+['Where should tyre inflation guidance come from?','The vehicle manufacturer’s specification','The highest pressure you can find','Another car’s tyre pressure','Pressure depends on the vehicle and loading.'],
+['What is engine oil mainly for?','Lubricating moving engine parts','Cooling the air conditioning','Cleaning the windscreen','Lubrication reduces friction and wear.'],
+['What is used to check oil level on a conventional engine with this device?','Dipstick','Tyre gauge','Radiator cap','The dipstick measures engine oil level.'],
+['What is the cooling system’s main purpose?','Control engine temperature','Lubricate the tyres','Power the indicators','Keep coolant at the recommended level.'],
+['Before changing a wheel, where should the car be?','On safe firm level ground, secured against movement','On a bend in a live lane','On a slope with the engine running','If a safe change is not possible, get assistance.'],
+['May you work underneath a car supported only by its emergency jack?','No','Yes, if it looks steady','Yes, for five minutes','A jack alone is not safe support for working underneath.'],
+['A bonnet flies up and obscures the windscreen. What should you do?','Slow under control and stop safely using remaining visibility','Accelerate until wind closes it','Turn sharply without looking','Keep control and find a safe stopping place.'],
+['What is the role of brake fluid in a conventional hydraulic system?','Transmit braking force hydraulically','Lubricate the tyre tread','Cool the windscreen','Low fluid or a fault requires attention.'],
+['When is a vehicle check most useful?','Before starting the journey','Only after a breakdown','Only on inspection day','Prevention includes tyres, lights, fluids and visibility.']]);
+add('Road signs','book',[
+['Identify this warning sign.','Uneven road','Road hump ahead','Road narrows','The repeated humps indicate an uneven surface.','img:uneven-road'],
+['Identify this warning sign.','Road hump ahead','Uneven road','Divided road ends','The single raised hump is different from repeated uneven-road bumps.','img:single-hump'],
+['Identify this warning sign.','Crossroads ahead','Roundabout ahead','Dead end','Expect traffic joining or crossing.','img:crossroads'],
+['What lies ahead according to this sign?','Side junction on the right','Side junction on the left','Right bend only','Read the side of the branch, not just the overall shape.','img:junction-right'],
+['What lies ahead according to this sign?','Side junction on the left','Side junction on the right','Left lane ends','The branch joins the main road from the left.','img:junction-left'],
+['This chevron directs you which way around the bend?','Left','Right','Straight ahead','Follow the chevron direction at a safe speed.','img:chevron-left'],
+['This chevron directs you which way around the bend?','Right','Left','Either direction','The broad black chevron points right.','img:chevron-right'],
+['Identify this warning sign.','Divided road ends','Divided road begins','Two-way traffic becomes one-way','The divider is at the bottom. The traffic streams come back together as the divider ends.','img:divided-road-ends'],
+['Identify this warning sign.','Divided road begins','Divided road ends','No overtaking','The divider is at the top. The traffic streams separate around the divider ahead.','img:divided-road-begins'],
+['Which side of the road narrows ahead?','Right','Left','Both equally','The right boundary moves inward in the direction of travel.','img:asymmetric-narrowing'],
+['Identify this warning sign.','Roundabout ahead','No U-turn','Road closed','Slow and prepare to give way at the roundabout entry.','img:roundabout']]);
+add('Numbers','newbook',[
+['Before pulling right to overtake, the syllabus specifies signalling for at least how long?','3 seconds','1 second','12 seconds','Signal for at least three seconds, and still check that moving is safe.'],
+['The syllabus gives what minimum lateral space when overtaking?','1 metre','10 centimetres','Half a metre','The textbook gives one metre or three feet; allow more when necessary for safety.'],
+['Before returning left after overtaking, signal for at least how long?','3 seconds','12 seconds','No signal is needed','Complete mirror and blind-spot checks and return only when safe.'],
+['The current combined textbook gives what minimum warning-triangle distance behind a stopped vehicle?','45.7 metres / 50 yards','5 metres','12 metres','Distinguish the textbook’s 50 YARDS from older translations saying 50 metres. Place it only if safe.']]);
+add('Motorcycle basics','newbook',[
+['What should a motorcycle helmet be like?','Approved, properly fitted and fastened','Loose enough to turn freely','Unfastened for a short ride','A helmet cannot protect properly if it comes off.'],
+['Why should a motorcyclist avoid another vehicle’s blind spot?','The driver may not see the motorcycle','The motorcycle automatically has priority there','The area is reserved for motorcycles','Choose a position where other drivers can see you.'],
+['On a motorcycle, why check mirrors and look before changing position?','To detect traffic around and behind','To signal automatic right of way','Only to check the pillion passenger','Observation is needed before a movement, not afterwards.'],
+['When should a motorcycle rider generally slow for a bend?','Before entering it','After leaning as far as possible','Only when the tyres slide','Set a safe entry speed and use smooth controls.'],
+['A wet painted road marking may create what risk for a rider?','Reduced grip','Automatic engine braking','Extra tyre adhesion','Avoid abrupt braking or steering on low-grip surfaces.'],
+['What should a pillion passenger do?','Use proper safety equipment and remain balanced','Make sudden movements on corners','Carry a load that hides the tail light','Passenger behaviour affects balance and visibility.'],
+['How should a load be carried on a motorcycle?','Securely, without obstructing control or visibility','Loose on the handlebars','Hiding the registration plate','A load must not make the motorcycle unsafe.'],
+['Before riding, what should be checked?','Tyres, brakes, lights and general condition','Only the fuel colour','Only the helmet brand','A routine check can prevent loss of control or a breakdown.'],
+['What is a sensible clothing choice for riding?','Protective clothing and suitable footwear','Loose items that can catch moving parts','Slippers for better control','Wear equipment that protects and does not interfere with control.'],
+['When should you increase space from a motorcycle ahead?','When conditions reduce grip or visibility','Only if its horn sounds','Never, motorcycles stop instantly','Smaller vehicles still need a safe reaction and stopping margin.']]);

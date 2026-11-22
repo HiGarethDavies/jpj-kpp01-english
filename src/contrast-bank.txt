@@ -1,0 +1,235 @@
+# Each group compares three related cases. Columns are case, answer, explanation, and optional illustration.
+@Road signs|book|Signs with similar-looking symbols
+A red disc with a horizontal white bar|No entry to traffic from this direction|The white bar bars entry; it does not identify a one-way route.|noentry
+A red-bordered circular sign reading 60|Maximum speed of 60 km/h|A posted maximum is an upper limit, never a target.|speed
+A red octagonal BERHENTI sign at a junction|A complete stop before proceeding safely|Even an apparently empty junction requires a stop.|stop
+
+@Road signs|book|Junction signs
+A yellow warning sign with an equal-armed black cross|Crossroads ahead|The vertical route continues; other traffic can join or cross on both sides.|img:crossroads
+A yellow warning sign showing a single side road branching right|Side junction on the right|The branch shows where traffic can enter the main road.|img:junction-right
+A yellow warning sign showing a single side road branching left|Side junction on the left|The branch joins from the left; it is not a lane restriction.|img:junction-left
+
+@Road signs|book|Changes in alignment
+A yellow-and-black chevron pointing to the left|The road bends left here|The arrowhead points along the direction of the bend.|img:chevron-left
+A yellow-and-black chevron pointing to the right|The road bends right here|This chevron guides you around the right-hand curve.|img:chevron-right
+A yellow warning sign with three arrows in a circular pattern|A roundabout is ahead|A yellow warning sign announces the roundabout before the entry.|img:roundabout
+
+@Road signs|book|Road width and separation
+A warning sign showing opposing traffic starting to go around a divider|A divided road begins|The median starts ahead and separates the streams of traffic.|img:divided-road-begins
+A warning sign showing opposing traffic coming back together past a divider|A divided road ends|Prepare to meet oncoming vehicles without the median.|img:divided-road-ends
+A warning sign showing the right edge bending in while the left edge stays straight|The road narrows from the right|Follow the diagram in the direction of travel.|img:asymmetric-narrowing
+
+@Road signs|book|Surface and works warnings
+A yellow diamond with two successive bumps|Uneven road ahead|A series of bumps warns of an irregular surface.|img:uneven-road
+A yellow diamond with one raised hump and an upward arrow|A road hump ahead|A single hump calls for an early reduction in speed.|img:single-hump
+An orange work-zone warning board directing traffic away from a lane|A temporary change to the available lanes|Follow the work-zone directions and merge only when safe.
+
+@Road signs|book|Mandatory and information signs
+A white arrow pointing down-left on a blue disc by an island|Pass to the left of the island|The diagonal arrow gives a mandatory side on which to pass.
+A blue information board with a hospital symbol|A hospital is nearby or in the direction shown|The board gives information, without requiring a turn.
+A blue one-way board with an arrow for the street you are entering|Travel only in the direction shown|The direction applies to traffic on the one-way street.
+
+@Road signs|book|Malay wording
+An advance board reading KURANGKAN LAJU|Reduce speed|This instruction concerns speed, without giving a new numeric limit by itself.
+A plate reading BERI LALUAN at a junction|Give way|Yield and stop if necessary to let conflicting traffic pass.|giveway
+A board reading JALAN SEHALA|One-way street|SEHALA indicates traffic in one direction.
+
+@Road signs|book|Limits on different vehicle dimensions
+A restriction marked 3.5 m with up-and-down arrows|Maximum overall vehicle height|Allow for any load or equipment above the roof.
+A restriction marked in metres with arrows pointing in from the sides|Maximum overall vehicle width|Side-to-side arrows identify width.
+A restriction marked in tonnes|Vehicle weight restriction|Tonnes express weight, while metres express dimensions.
+
+@Rules and markings|book|Stop line and signal changes
+The signal turns red while you are still approaching the stop line|Stop before the line|Stopping on the crossing or past the line blocks protected space.
+The signal turns amber and you are too close to stop safely|Continue cautiously through if clear|The amber rule allows proceeding when a safe stop is no longer possible.
+The signal is green but the queue leaves no room beyond the junction|Wait behind the line until your exit clears|Green permits movement when you can clear the junction safely.
+
+@Rules and markings|book|Traffic control priority
+A police officer controlling the junction signals you to stop despite a green light|Give priority to the authorised officer's instruction|Follow the authorised officer controlling movement at the junction.
+A red signal governs your lane and nobody is directing traffic|Obey the red light even if the junction is empty|The absence of other vehicles does not change the signal.
+A give-way sign controls an entry with no conflicting traffic after a clear observation|Proceed cautiously after checking and yielding as necessary|Give way requires yielding to conflicts; a stop can be necessary when they exist.
+
+@Rules and markings|book|Centre-line markings
+The centre line on your side is solid while the opposite one is broken|Stay on your side when considering a pass|Your side's line governs whether you may cross it to overtake.
+The centre line on your side is broken while the opposite one is solid|Cross to overtake only if clearly safe and otherwise permitted|A broken line on your side can permit crossing, subject to road and traffic conditions.
+There are two solid centre lines on a stretch where you want to overtake|Treat the crossing ban as applying to both directions|Each direction has a continuous line on its side.
+
+@Rules and markings|book|Lane choice and escape space
+You discover that you have already passed your expressway exit|Continue to the next exit|Reversing into traffic or on the shoulder creates a serious hazard.
+Your engine loses power on an expressway and you can safely reach the shoulder|Move out of the live lanes and seek help|An emergency stopping area is for genuine breakdowns and emergencies.
+You are entering a fast expressway from a slip road|Adjust speed on the entry lane and merge into a safe gap|Watch the traffic already on the expressway and join when there is space.
+
+@Rules and markings|book|Before, during and after overtaking
+Before pulling out to overtake on a permitted road with a clear view ahead|Check behind and to the side, signal and move only when safe|An open road ahead does not rule out someone overtaking you.
+While level with the vehicle you are overtaking|Maintain safe lateral clearance|Side space reduces the risk if either vehicle changes position.
+After passing, while the overtaken vehicle is still close off your rear quarter|Delay the return until there is clearance and signal before moving back|Leaving room prevents cutting across the other driver's path.
+
+@Rules and markings|book|Other road users and junctions
+An emergency vehicle approaches from behind with its warning equipment operating|Create a route for it when safe without entering a dangerous conflict|Give room smoothly and avoid endangering other users.
+A driver flashes their headlights while you are waiting to turn across traffic|Assess the gap yourself before committing|A flash is not proof that every lane is safe.
+A car is coming round the roundabout from your right while you wait at its give-way line|Let the circulating car pass before entering|Check the actual movement and follow the entry markings.
+
+@Rules and markings|book|Using vehicle signals
+You intend to turn into the second of two nearby side roads|Time the indicator so it clearly refers to the second road|An excessively early signal may cause another road user to act on the wrong assumption.
+You are approaching oncoming traffic at night with full beams on|Switch to dipped headlights|High beams can dazzle people who need a clear view of the road.
+Your vehicle is stationary after a breakdown and presents a hazard|Use hazard warning lights|Warn approaching drivers while arranging assistance.
+
+@Rules and markings|book|Busy roads and crossings
+Rail barriers are rising but crossing signals are still restricting traffic|Remain outside the crossing until permitted|The first sign of movement is not permission to enter.
+A vehicle slows at a pedestrian crossing and blocks your view of the crossing|Hold back and prepare to stop for a pedestrian|Passing can hide the person crossing until too late.
+Your exit from a railway crossing is blocked by a queue|Wait short of the rails until there is room beyond|Leave the tracks clear even while the road signal permits movement.
+
+@Distance and hazards|newbook|Two, four and twelve seconds
+Measuring ordinary following space in good driving conditions|Use the two-second following baseline|Count from when the vehicle in front passes a fixed reference.
+Choosing a following-distance rule on a slippery road|Apply the four-second rule and allow more room if needed|Reduced grip increases the distance needed to slow safely.
+Planning the road view well ahead of your current position|Use the twelve-second scan|This is a forward observation horizon, separate from following distance.
+
+@Distance and hazards|newbook|Choosing where and when to look
+You need to time the actual gap to the vehicle ahead|Count between that vehicle and your own passing the same fixed point|The same roadside object provides a common time reference.
+Before changing lanes your mirror shows a clear lane but leaves part of your near side unseen|Check the relevant blind spot before moving|A shoulder check complements mirrors where the vehicle design leaves a gap.
+You need to spot developing hazards beyond the immediately preceding vehicle|Scan several vehicles ahead instead of fixating on its bumper|Early detection gives more time for progressive changes in speed and position.
+
+@Distance and hazards|book|Different causes of longer stopping distance
+The driver sees a hazard late because their attention was on a phone|Recognition and reaction are delayed|The vehicle keeps travelling before the driver starts to brake.
+The tyres have poor grip on a wet surface after braking begins|The braking phase is longer|Limited grip reduces the braking force that can be used safely.
+You want the complete distance from perceiving a hazard to a full stop|Add reaction and braking distances|Stopping distance includes the ground covered in both phases.
+
+@Distance and hazards|book|Hidden hazards in everyday traffic
+A ball emerges from a gap between parked cars|Anticipate a child following from the same gap|A moving object can be an early clue to a person you cannot yet see.
+A parked car shows reversing lights as you are about to pass it|Be prepared for that vehicle to move into your path|The light gives warning of a potential movement rather than assurance that the driver sees you.
+A cyclist approaches a drain or pothole close to their line of travel|Anticipate a change of line and leave room|The cyclist may move sideways to avoid the obstacle.
+
+@Distance and hazards|book|Signs of driver impairment
+You struggle to keep your eyes open during a journey|Find a safe place to stop and rest|Opening a window or increasing the radio volume is no replacement for rest.
+You are about to take a new medicine carrying a drowsiness warning|Check the instructions and professional advice before driving|Some prescribed or over-the-counter medicines impair alertness.
+An angry encounter leaves you tempted to follow another driver closely|Disengage and give yourself space to settle|Maintaining space leaves room to react without escalating the situation.
+
+@Distance and hazards|book|Anticipation and planning
+You are leaving on a long trip and know you become tired late in the day|Plan rest stops and suitable travel times before leaving|Planning prevents pressure to drive on when you are unfit to continue.
+You spot a queue beginning far ahead while traffic directly in front is still moving|Ease off early and check behind before slowing further|Early speed adjustment avoids sudden braking and gives following traffic notice.
+Vehicles ahead closely follow one another and their view is restricted|Leave a greater time gap in front of you|Where those drivers brake late, your extra gap gives you more response time.
+
+@Distance and hazards|newbook|Overtaking numbers
+How long before moving out should you signal according to the KPP passing routine|At least three seconds|The same minimum signal time is used before returning; move only when safe.
+How much lateral space does the textbook specify as a minimum when passing another vehicle|At least one metre, with more when needed|This is side clearance, not time or longitudinal following distance.
+How far ahead in time should you scan when assessing the road before an overtake|Twelve seconds ahead|The scan concerns the available view and developing conflicts.
+
+@Emergencies and vehicle|book|Loss of control or speed
+A tyre suddenly bursts and the steering pulls while you are moving|Grip the wheel firmly and stabilise before slowing progressively|Sharp steering or braking can make the loss of control worse.
+The tyres lose contact on standing water and steering goes light|Ease off the accelerator and avoid abrupt braking or steering|Smooth inputs help until the tyres recover effective contact.
+You are approaching a long steep descent with the car under control|Choose a suitable lower gear before the descent to help control speed|Engine braking reduces reliance on prolonged foot brake use.
+
+@Emergencies and vehicle|book|Different cockpit warnings
+You notice the engine temperature rising well above its normal range|Stop safely and allow the engine to cool before checking the cooling system|A hot cooling system can eject scalding fluid if opened.
+An oil-pressure warning remains on with the engine running|Stop safely and switch off the engine for investigation|Continuing without adequate oil pressure risks severe engine damage.
+In an emergency stop the brake pedal pulses on a car with working ABS|Maintain firm brake pressure and steer as needed|Pulsing can be the ABS working; repeatedly releasing the pedal undermines the stop.
+
+@Emergencies and vehicle|book|Unexpected failure while moving
+The bonnet lifts and obscures the main view ahead|Use the remaining visibility around the obstruction to slow and stop safely|Avoid sudden steering or continuing to drive blind.
+The headlights fail at night while the engine and controls still work|Warn others if possible and leave the carriageway before driving farther in darkness|Continuing at the same speed outdrives what you can see.
+A warning sign and smoke suggest an engine fire while driving|Pull over safely, switch off, get everyone out and call for help|Protect people first and stay away from the vehicle if fire is suspected.
+
+@Emergencies and vehicle|book|Items to check before setting off
+A cold tyre has less pressure than the specification for the car's load|Set it to the vehicle manufacturer's recommended pressure|The tyre sidewall maximum is not the car's normal setting.
+The engine oil level is being checked on a conventional car fitted with a dipstick|Measure on level ground using the dipstick as directed by the manufacturer|Follow the model's process and check the marked reading range.
+The windscreen smears every time the wipers sweep|Inspect and clean or replace ineffective wiper blades and check washer fluid|Clear visibility requires both effective blades and enough washer fluid.
+
+@Emergencies and vehicle|book|Work around a stopped car
+You need to lift a wheel on firm level ground|Use the specified jacking point after securing the vehicle|The correct lift point and preventing movement are both essential.
+You need to inspect underneath a car held up only by its emergency jack|Arrange suitable support or professional help before going underneath|A lifting jack alone is not a safe support.
+The flat tyre leaves the car exposed in a live lane with no safe place to work|Get clear of danger and arrange roadside assistance|Personal safety takes priority over a roadside wheel change.
+
+@Emergencies and vehicle|book|Matching restraint to purpose
+Reducing the movement of an adult occupant in a collision|A correctly fastened seatbelt|Airbags supplement the belt; they cannot take over its job.
+Reducing the rearward movement of the head in a rear impact|A properly positioned head restraint|The head restraint helps limit neck injury.
+Providing an appropriate fit for a child too small for the adult belt alone|An approved child restraint appropriate to the child's size|Correct fit and installation matter as much as selecting the device.
+
+@Emergencies and vehicle|book|Jobs of vehicle systems
+Carrying pedal pressure to the brakes in a conventional hydraulic system|Brake fluid|The fluid transmits hydraulic pressure; air or loss of fluid can reduce braking.
+Reducing friction between moving engine parts|Engine oil|Lubrication protects moving surfaces.
+Carrying heat away from the engine through the radiator circuit|Coolant|The cooling system controls operating temperature.
+
+@Emergencies and vehicle|book|What tyres reveal
+Tread wear indicators are flush with the surrounding tread|Arrange tyre replacement and check the other tyres|The wear bars show the tread has worn down to their level.
+A tyre sidewall has developed a visible bulge after a pothole impact|Arrange a safe inspection or replacement before further use|A bulge can indicate structural damage even when pressure looks normal.
+The front tyres consistently wear much faster on one edge|Have pressure, wheel alignment and suspension condition checked|Uneven wear should prompt an inspection to find its cause.
+
+@Licences|ldl|Licence progression
+You have passed KPP01 and need to begin supervised practical learning|Apply for the learner's driving licence|Passing theory is a step toward the LDL and supervised practice.
+You have met the practical test requirements and are entering probation|Apply for the probationary driving licence|The PDL belongs to the period after qualification and before the full licence.
+Your probation ends and you are within the permitted conversion window|Apply for the competent driving licence|The CDL is the full licence stage.
+
+@Licences|ldl|What different learner numbers measure
+Choosing the period for an individual learner licence renewal|Three or six months|An individual renewal is issued in either of these lengths.
+Finding the overall time cap that runs from the first issue of an LDL|Two years|A new renewal does not reset the original two-year clock.
+Checking the currency of the Part I test result for an LDL application|One year|The test result's validity is separate from the aggregate LDL period.
+
+@Licences|cdl|Probation and conversion dates
+Finding the normal length of probation from the first PDL|Two years|The probation clock concerns the P licence, with a separate clock for converting it.
+Finding how early you can normally apply for a CDL before a PDL expires|Seven days before expiry|This is an application lead time.
+Finding the normal final window to apply after a PDL has expired|Within one year after expiry|The application window does not extend permission to drive on an expired licence.
+
+@Licences|newbook|Minimum age and vision
+Checking the general minimum age for a class DA applicant|Seventeen years|DA is the automatic car licensing class.
+Checking the general minimum age for a class B2 applicant|Sixteen years|The motorcycle minimum is one year younger than the car minimum.
+Checking the forward vision distance stated in the KPP textbook|Twenty-three metres|This eyesight figure is distinct from emergency-sign positioning and road gaps.
+
+@Licences|newbook|Learner and probationary conditions
+A learner practices in a class DA car under a registered instructor|Display the learner L signs as required|The car learner should be identified and under authorised supervision.
+A newly qualified driver is using a car during the probationary period|Display the probationary P signs as required|The conditions on a P licence remain applicable for probation.
+A DA learner wants unsupervised car practice on a public road after theory|Arrange supervised instruction instead|A theory pass and an LDL are not permission to drive a car unaccompanied.
+
+@KEJARA|kejara|Three different demerit timelines
+A P licence holder reaches the current cancellation threshold|Twenty demerit points|This is the PDL threshold stated in the current JPJ FAQ.
+JPJ considers repeated CDL suspensions as grounds for cancellation|Three suspensions within five years|The rule concerns the number of suspensions in a specified period.
+A licence has been cancelled under KEJARA and its holder wants to start the licensing process again|After twelve months from cancellation|Reapplication follows the process for a new applicant.
+
+@KEJARA|kejara|What payment and licence action mean
+A compound for a scheduled offence is paid|The offence can now generate demerit points|JPJ ties points to payment or court punishment for a scheduled offence.
+A driver receives a notice before payment or a court outcome for a scheduled offence|Receipt alone is not the demerit trigger|The later payment or court outcome is what matters for points.
+A licence suspension has already taken effect|Do not drive during the suspension|A quick journey or a different vehicle does not remove the restriction.
+
+@KEJARA|kejara|Qualifying for reduced points
+Checking the percentage JPJ may reduce for the stated qualifying cases|Fifty percent|There is no automatic full wipe of demerits.
+Checking the period without a scheduled offence for the no-offence reduction route|Twelve months from the most recent offence|The published qualifying period runs from the last relevant offence.
+Checking how often the qualifying reduction incentive is available before suspension or cancellation|Once|JPJ describes a one-time reduction incentive at that stage.
+
+@Numbers|law|General statutory alcohol limits
+Testing a driver's breath under the general prescribed limits|22 micrograms per 100 mL|Breath is expressed in micrograms. The other two figures are milligrams.
+Testing a driver's blood under the general prescribed limits|50 milligrams per 100 mL|The current general blood figure is 50, replacing the older 80.
+Testing a driver's urine under the general prescribed limits|67 milligrams per 100 mL|The current general urine figure is 67, replacing the older 107.
+
+@Motorcycle basics|newbook|Rider protection
+Checking a helmet before moving off|Use an approved helmet that fits and fasten its strap securely|A helmet can come off or shift if the strap is undone or the fit is poor.
+Choosing outer clothing for a ride in reduced visibility|Use protective clothing that helps other drivers see you|Conspicuity is especially valuable when light or contrast is poor.
+Selecting footwear to help protect feet and maintain control|Use secure protective footwear suitable for riding|Loose or open footwear offers poor protection and can interfere with control.
+
+@Motorcycle basics|newbook|Handling a motorcycle in traffic
+You are approaching a bend on a motorcycle with enough room to prepare|Set an appropriate speed before entering the bend|Harsh braking or steering while leaned over can reduce your safety margin.
+A motorcycle is travelling alongside a truck in the area its mirrors cannot cover|Change position safely to get out of the truck's blind spot|The truck driver may have little warning that the rider is there.
+A rider must cross wet painted markings or a metal cover|Use smooth controls and avoid abrupt braking or steering on the low-grip surface|A wet marking or cover can be more slippery than the surrounding road.
+
+@Motorcycle basics|newbook|Passenger, luggage and pre-ride checks
+Preparing a motorcycle pillion passenger before the trip|Provide proper safety equipment and agree on balanced passenger behaviour|Sudden movement by a passenger can affect stability.
+Securing luggage to a motorcycle for a journey|Keep it stable and clear of moving parts, controls and lamps|Badly secured luggage can change balance or obscure signals.
+A motorcycle has been parked for weeks and is about to be ridden|Check tyres, brakes, lights and other essential controls|A fault is easier and safer to address before the ride.
+
+@Licences|newbook|Driver ethics and conduct
+Someone offers a guaranteed pass in return for money outside the official process|Refuse and report through the appropriate channel|Paying to secure a result compromises the integrity of the test.
+An official application form asks about a relevant health condition|Give an accurate declaration|Licensing and safety decisions depend on truthful information.
+A friend wants to use your driving licence document to present as their own|Decline and tell them to use the proper licensing process|A licence identifies and authorises its holder for specified classes.
+
+@Rules and markings|book|Reading what another vehicle is doing
+You notice white reversing lights on a car in a parking space|Expect the car may back into the aisle|Those lights are a cue to prepare for reversing movement.
+You notice paired red brake lights brighten on the vehicle ahead|Expect the vehicle to slow and reassess your following gap|Brake lights warn the following driver that braking has begun.
+You notice the amber right indicator flash on a vehicle near a junction|Expect a possible turn or lane change to the right while checking its actual movement|An indicator shows intention and can be mistimed or left on.
+
+@Distance and hazards|book|Threats on approach to bends
+Your sight line ends at a blind left curve|Set a speed that lets you respond within the road you can see|Reduce speed early because the hidden part of the curve may contain traffic or an obstruction.
+A car behind is attempting to overtake you before a crest|Avoid accelerating and preserve safe space for their return|Speeding up increases the time the overtaking driver needs in the opposing lane.
+You are considering a pass near a hill crest with no view of opposing traffic|Wait for a visible safe stretch to attempt the pass|A clear lane immediately ahead does not reveal traffic over the crest.
+
+@Emergencies and vehicle|book|Using the right warning equipment
+You want to warn approaching traffic that your stationary vehicle caused an obstruction|Use hazard warning lights|The warning calls attention to a vehicle presenting a hazard.
+You are changing lane in slow traffic and need to show which way|Use the corresponding direction indicator|A directional signal tells other road users which movement to expect.
+You are driving through reduced visibility in rain and want others to see the moving vehicle|Use dipped headlights|Dipped lights help visibility while leaving the indicators available for turns and lane changes.
